@@ -1,4 +1,4 @@
-ýconst { Sequelize } = require("sequelize");
+const { Sequelize } = require("sequelize");
 const fs = require("fs");
 if (fs.existsSync("config.env"))
   require("dotenv").config({ path: "./config.env" });
@@ -26,9 +26,9 @@ module.exports = {
   //_________________________________________________________________________________________________________________________________
   BRANCH: "main",
   //_________________________________________________________________________________________________________________________________
-  SESSION_ID: process.env.SESSION_ID || "Phoenix~kx9tMPt7", //Enter Your Session Id Here
+  SESSION_ID: process.env.SESSION_ID || "Phoenix~Fb2pvQbN", //Enter Your Session Id Here
   //_________________________________________________________________________________________________________________________________
-  SUDO: process.env.SUDO || "2347045229369, 2349018116715",
+  SUDO: process.env.SUDO || "2347045229369",
   //_________________________________________________________________________________________________________________________________
   SPAM_COUNT: process.env.SPAM_COUNT || "10",
   //_________________________________________________________________________________________________________________________________
@@ -50,7 +50,7 @@ module.exports = {
   //_________________________________________________________________________________________________________________________________
   WELCOME_MSG: process.env.WELCOME_MSG || "👋 hello *@user* Welcome To Our Group *@gname*\n*Total Members:* @count\n*Group Description:*\n@gdesc {pp}",
   //_________________________________________________________________________________________________________________________________
-  GOODBYE_MSG: process.env.GOODBYE_MSG || "👋 Fkn black monkey ass *@user* From *@gname*\n*Total Members:* @count {pp}",
+  GOODBYE_MSG: process.env.GOODBYE_MSG || "👋 GoodBye *@user* From *@gname*\n*Total Members:* @count {pp}",
   //_________________________________________________________________________________________________________________________________
   DATABASE_URL: DATABASE_URL,
   //_________________________________________________________________________________________________________________________________
